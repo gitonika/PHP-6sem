@@ -1,0 +1,1434 @@
+2025-07-03 20:57:46 [::1][-][-][error][Error] Error: Class "app\assets\AppAsset" not found in C:\xampp\htdocs\hotel\views\layouts\main.php:13
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(428): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(414): yii\base\Controller->renderContent('<h1>Witamy w Ho...')
+#4 C:\xampp\htdocs\hotel\controllers\SiteController.php(11): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#10 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#12 {main}
+2025-07-03 20:57:46 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => 'c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '57549'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569066.343
+    'REQUEST_TIME' => 1751569066
+]
+2025-07-03 20:58:17 [::1][-][-][error][Error] Error: Class "app\assets\AppAsset" not found in C:\xampp\htdocs\hotel\views\layouts\main.php:13
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(428): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(414): yii\base\Controller->renderContent('<h1>Witamy w Ho...')
+#4 C:\xampp\htdocs\hotel\controllers\SiteController.php(11): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#10 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#12 {main}
+2025-07-03 20:58:17 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => 'c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '57743'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569097.9335
+    'REQUEST_TIME' => 1751569097
+]
+2025-07-03 20:58:25 [::1][-][-][error][Error] Error: Class "app\assets\AppAsset" not found in C:\xampp\htdocs\hotel\views\layouts\main.php:13
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(428): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(414): yii\base\Controller->renderContent('<h1>Witamy w Ho...')
+#4 C:\xampp\htdocs\hotel\controllers\SiteController.php(11): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#10 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#12 {main}
+2025-07-03 20:58:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => 'c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\hotel\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57793'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\hotel\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1751569105.4453
+    'REQUEST_TIME' => 1751569105
+]
+2025-07-03 21:01:20 [::1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: C:\xampp\htdocs\hotel\vendor\bower/jquery/dist in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php:497
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetBundle.php(208): yii\web\AssetManager->publish('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php(283): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(328): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(333): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(333): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetBundle.php(152): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 C:\xampp\htdocs\hotel\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(428): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#11 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(414): yii\base\Controller->renderContent('<h1>Witamy w Ho...')
+#12 C:\xampp\htdocs\hotel\controllers\SiteController.php(11): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('', Array)
+#17 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#18 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#20 {main}
+2025-07-03 21:01:20 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => 'c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\hotel\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58883'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\hotel\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1751569280.1718
+    'REQUEST_TIME' => 1751569280
+]
+2025-07-03 21:01:28 [::1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: C:\xampp\htdocs\hotel\vendor\bower/jquery/dist in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php:497
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetBundle.php(208): yii\web\AssetManager->publish('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php(283): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(328): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(333): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(333): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetBundle.php(152): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 C:\xampp\htdocs\hotel\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(428): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#11 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(414): yii\base\Controller->renderContent('<h1>Witamy w Ho...')
+#12 C:\xampp\htdocs\hotel\controllers\SiteController.php(11): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('', Array)
+#17 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#18 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#20 {main}
+2025-07-03 21:01:28 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => 'c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\hotel\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58934'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\hotel\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1751569288.5697
+    'REQUEST_TIME' => 1751569288
+]
+2025-07-03 21:01:38 [::1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: C:\xampp\htdocs\hotel\vendor\bower/jquery/dist in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php:497
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetBundle.php(208): yii\web\AssetManager->publish('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetManager.php(283): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(328): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(333): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\View.php(333): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\AssetBundle.php(152): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 C:\xampp\htdocs\hotel\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(428): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#11 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(414): yii\base\Controller->renderContent('<h1>Witamy w Ho...')
+#12 C:\xampp\htdocs\hotel\controllers\SiteController.php(11): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('', Array)
+#17 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#18 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#20 {main}
+2025-07-03 21:01:38 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => 'c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=c3ec58220a047e5a88c04339baab1f51bfb1d2fc5b0ac4f70878219646ab2f90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22m5Qxdcj3IFVGotnXpSO_yz8VjKuIUbi7%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '58996'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569298.8574
+    'REQUEST_TIME' => 1751569298
+]
+2025-07-03 21:03:03 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/facilities in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php:155
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('facilities', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/facilities', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:03:03 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/rooms'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '59498'
+    'REDIRECT_URL' => '/hotel/web/site/facilities'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/facilities'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569383.6204
+    'REQUEST_TIME' => 1751569383
+]
+2025-07-03 21:03:07 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/gallery in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php:155
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('gallery', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/gallery', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:03:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/rooms'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '59542'
+    'REDIRECT_URL' => '/hotel/web/site/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/gallery'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569387.8952
+    'REQUEST_TIME' => 1751569387
+]
+2025-07-03 21:03:15 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/facilities in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php:155
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('facilities', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/facilities', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:03:15 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/rooms'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '59559'
+    'REDIRECT_URL' => '/hotel/web/site/facilities'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/facilities'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569395.0584
+    'REQUEST_TIME' => 1751569395
+]
+2025-07-03 21:03:18 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/gallery in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php:155
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('gallery', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/gallery', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:03:18 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/rooms'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '59557'
+    'REDIRECT_URL' => '/hotel/web/site/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/gallery'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569398.66
+    'REQUEST_TIME' => 1751569398
+]
+2025-07-03 21:03:40 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/facilities in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php:155
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('facilities', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/facilities', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:03:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/rooms'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '59735'
+    'REDIRECT_URL' => '/hotel/web/site/facilities'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/facilities'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569420.7174
+    'REQUEST_TIME' => 1751569420
+]
+2025-07-03 21:05:25 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/gallery in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Controller.php:155
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('gallery', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/gallery', Array)
+#2 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:05:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/facilities'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '60367'
+    'REDIRECT_URL' => '/hotel/web/site/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/gallery'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569525.5219
+    'REQUEST_TIME' => 1751569525
+]
+2025-07-03 21:07:25 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/hotel1.jpg". in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php:564
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('images/hotel1.j...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:07:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/gallery'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '61094'
+    'REDIRECT_URL' => '/hotel/web/images/hotel1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/images/hotel1.jpg'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569645.4058
+    'REQUEST_TIME' => 1751569645
+]
+2025-07-03 21:07:25 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/hotel3.jpg". in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php:564
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('images/hotel3.j...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:07:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/gallery'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '61097'
+    'REDIRECT_URL' => '/hotel/web/images/hotel3.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/images/hotel3.jpg'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569645.4088
+    'REQUEST_TIME' => 1751569645
+]
+2025-07-03 21:07:25 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/hotel2.jpg". in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php:564
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('images/hotel2.j...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:07:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/gallery'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '61095'
+    'REDIRECT_URL' => '/hotel/web/images/hotel2.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/images/hotel2.jpg'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569645.4068
+    'REQUEST_TIME' => 1751569645
+]
+2025-07-03 21:07:31 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/images/hotel1.jpg". in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php:564
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/images/hot...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:07:31 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/gallery'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '61140'
+    'REDIRECT_URL' => '/hotel/web/site/images/hotel1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/images/hotel1.jpg'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569651.8052
+    'REQUEST_TIME' => 1751569651
+]
+2025-07-03 21:07:31 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/images/hotel3.jpg". in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php:564
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/images/hot...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:07:31 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/gallery'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '61142'
+    'REDIRECT_URL' => '/hotel/web/site/images/hotel3.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/images/hotel3.jpg'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569651.8074
+    'REQUEST_TIME' => 1751569651
+]
+2025-07-03 21:07:31 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/images/hotel2.jpg". in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Module.php:564
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/images/hot...', Array)
+#1 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\hotel\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\hotel\web\index.php(11): yii\base\Application->run()
+#2 {main}
+2025-07-03 21:07:31 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '365rind7g2rpijudjofjuqagtm'
+    '_csrf' => '860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA' => '\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Brave\";v=\"138\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_GPC' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/hotel/web/site/gallery'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_COOKIE' => 'PHPSESSID=365rind7g2rpijudjofjuqagtm; _csrf=860c570511f4a03310f4a2fa3cc5957844e58181b4e7c81cb204f914c7a16d00a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJHvVZy36HpQkvxUTw6v1-r5iof9-ayD%22%3B%7D'
+    'PATH' => 'C:\\app\\weron\\product\\21c\\dbhomeXE\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WindowsPowerShell\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\weron\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\weron\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\weron\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\weron\\.dotnet\\tools;C:\\Users\\weron\\AppData\\Local\\GitHubDesktop\\bin;C:\\ProgramData\\weron\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.3.4\\bin;;C:\\Users\\weron\\AppData\\Roaming\\npm;C:\\Users\\weron\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/hotel/web/index.php'
+    'REMOTE_PORT' => '61141'
+    'REDIRECT_URL' => '/hotel/web/site/images/hotel2.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hotel/web/site/images/hotel2.jpg'
+    'SCRIPT_NAME' => '/hotel/web/index.php'
+    'PHP_SELF' => '/hotel/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1751569651.8062
+    'REQUEST_TIME' => 1751569651
+]
